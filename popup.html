@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Share</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <main class="app" role="dialog" aria-live="polite">
+      <header class="header" aria-label="Seiteninformation">
+        <img src="icons/share.svg" alt="Teilen-Symbol" class="header-icon" />
+        <span id="sourceLabel">Seite</span>
+      </header>
+
+      <section class="summary" aria-live="polite">
+        <h2 id="pageTitle">Seite wird geladen...</h2>
+        <p id="pageUrl" class="page-url"></p>
+      </section>
+
+      <div class="actions">
+        <button id="gmailBtn" class="action-button primary" type="button">Mit Gmail teilen</button>
+        <button id="thunderbirdBtn" class="action-button secondary" type="button">Mit Thunderbird teilen</button>
+        <button id="copyBtn" class="action-button tertiary" type="button">Link kopieren</button>
+      </div>
+
+      <p id="status" class="status" aria-live="polite">Bitte wählen Sie eine Option.</p>
+    </main>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Share",
+  "version": "1.0.0",
+  "description": "Teilen von Webseiten per E-Mail mit Gmail oder Thunderbird.",
+  "permissions": [
+    "activeTab",
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Simple Share",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/share-16.png",
+      "32": "icons/share-32.png",
+      "48": "icons/share-48.png",
+      "128": "icons/share-128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/share-16.png",
+    "32": "icons/share-32.png",
+    "48": "icons/share-48.png",
+    "128": "icons/share-128.png"
+  }
+}

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Simple Share Symbol">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#2c6ee8"/>
+      <stop offset="100%" stop-color="#174db7"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="28" fill="url(#bg)"/>
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="36" cy="35" r="9" fill="#ffffff" stroke="none"/>
+    <circle cx="82" cy="26" r="9" fill="#ffffff" stroke="none"/>
+    <circle cx="82" cy="90" r="9" fill="#ffffff" stroke="none"/>
+    <path d="M44 35 L72 26" stroke-width="7"/>
+    <path d="M44 35 L76 82" stroke-width="7"/>
+    <path d="M74 74 L82 90 L94 82" stroke-width="7"/>
+  </g>
+</svg>
